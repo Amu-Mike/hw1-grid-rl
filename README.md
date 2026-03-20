@@ -1,4 +1,5 @@
-## Project URL: [https://github.com/Amu-Mike/hw1-grid-rl](https://github.com/Amu-Mike/hw1-grid-rl)
+Project URL: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
 # GridWorld Reinforcement Learning - HW1
 This is a Flask-based project for GridWorld development and Reinforcement Learning algorithm demonstration. It implements Random Policy Evaluation and Value Iteration.
 
