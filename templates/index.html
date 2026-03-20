@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HW1: GridWorld RL</title>
+      <link rel="stylesheet" href="/static/style.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@400;600;700&display=swap">
+  </head>
+<body>
+      <div class="container">
+                <h1>Homework HW1: Grid Map Development and RL</h1>
+              <div class="card setup-card">
+                          <div class="controls">
+                                          <h3>HW1-1: Generate n x n Square</h3>
+                                          <div class="input-group">
+                                                              <label for="grid-size">Enter a number 'n' (5-9) :</label>label>
+                                                              <input type="number" id="grid-size" min="5" max="9" value="5">
+                                                              <button id="btn-generate">Generate Square</button>button>
+                                          </div>div>
+                          </div>div>
+                          <div id="instructions" class="instructions">
+                                          Please enter grid size and click "Generate Square" to start.
+                          </div>div>
+                          <div class="grid-section">
+                                          <h3 id="grid-title" class="section-title">5 x 5 Square</h3>
+                                          <div class="grid-area">
+                                                              <div id="grid-main-wrapper" class="grid-outer-wrapper">
+                                                                                      <!-- Labels will be injected by JS -->
+                                                                                      <div id="grid-container" class="grid-container"></div>div>
+                                                              </div>div>
+                                          </div>div>
+                          </div>div>
+                          <div id="action-buttons" class="action-buttons hidden">
+                                          <button id="btn-random-policy">HW1-2: Show Random Policy and Value Evaluation</button>button>
+                                          <button id="btn-value-iteration">HW1-3: Execute Value Iteration for Optimal Policy</button>button>
+                          </div>div>
+              </div>div>
+      
+              <div id="results-area" class="results-area hidden">
+                          <div class="divider">Result Area</div>div>
+                          <div class="matrices-container">
+                                          <div class="matrix-box">
+                                                              <h3 class="section-title">Value Matrix V(s)</h3>
+                                                              <div id="value-grid-wrapper" class="grid-outer-wrapper">
+                                                                                      <div id="value-grid" class="grid-container result-grid"></div>div>
+                                                              </div>div>
+                                          </div>div>
+                                          <div class="matrix-box">
+                                                              <h3 class="section-title">Policy Matrix (Policy)</h3>
+                                                              <div id="policy-grid-wrapper" class="grid-outer-wrapper">
+                                                                                      <div id="policy-grid" class="grid-container result-grid"></div>div>
+                                                              </div>div>
+                                          </div>div>
+                          </div>div>
+              </div>div>
+      </div>div>
+    <script src="/static/script.js"></script>
+</body>
+</html>html>
+</h3></h1>
+</body></title>
+  </head>
