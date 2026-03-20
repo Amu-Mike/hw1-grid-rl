@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html lang="zh-TW">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>GridWorld Reinforcement Learning - HW1</title>
+      <link rel="stylesheet" href="static/style.css">
+  </head>
+  <body>
+      <div class="container">
+          <aside class="sidebar">
+              <h1>GridWorld RL</h1>
+              <div class="controls">
+                  <div class="control-group">
+                      <label>Grid Size (N):</label>
+                      <input type="number" id="grid_n" value="5" min="5" max="9">
+                      <button id="generate_grid">Re-generate Grid</button>
+                  </div>
+                  <div class="status-panel">
+                      <p>Status: <span id="current_mode">Setup Mode</span></p>
+                      <p>Start: <span id="start_coord">Not Set</span></p>
+                      <p>End: <span id="end_coord">Not Set</span></p>
+                      <p>Obstacles: <span id="obstacle_count">0</span> / <span id="max_obstacles">3</span></p>
+                  </div>
+                  <div class="btn-group">
+                      <button id="run_random" disabled>HW1-2 Random Policy Eval</button>
+                    <button id="run_vi" disabled>HW1-3 Best Policy (VI)</button>
+                    <button id="reset_all">Reset Map</button>
+                </div>
+              </div>
+          </aside>
+          <main class="grid-container">
+              <div id="grid_wrapper">
+                  <div id="grid" class="grid-board"></div>
+              </div>
+          </main>
+      </div>
+      <script src="static/script.js"></script>
+  </body>
+  </html>
